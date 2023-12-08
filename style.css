@@ -1,0 +1,135 @@
+.container-fl {
+  background-color: black;
+}
+.bg-cover {
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url("./images/Copertina\ Bacheca.jpg");
+  width: 100vw;
+}
+.net {
+  height: 2rem;
+}
+.sign {
+  background-color: #e50914;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+}
+.logo {
+  padding: 1rem 1.5rem;
+}
+.headline {
+  padding-top: 10rem;
+}
+input {
+  width: 100%;
+  background-color: #0100004a;
+  border: 0.5px solid rgb(254, 254, 254);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  padding-top: 1.25rem;
+}
+
+.but {
+  background-color: #e50914;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.curve {
+  height: 15vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 5, 66, 0.619) 10%,
+    black 50%,
+    black 20%
+  );
+
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+}
+.features1 {
+  background: linear-gradient(
+    to bottom right,
+    rgba(145, 9, 59, 0.9),
+    rgba(98, 13, 57, 0.993),
+    rgb(42, 9, 25),
+    rgb(73, 2, 38)
+  );
+
+}
+.features {
+  background: linear-gradient(
+    to bottom right,
+    rgba(39, 39, 102, 0.511),
+    rgba(63, 63, 137, 0.244),
+    rgba(174, 67, 121, 0.089),
+    rgba(116, 15, 66, 0.247)
+  );
+  
+}
+.faq {
+  background-color: rgb(49, 44, 44);
+}
+.All {
+  font-size: 24px;
+}
+
+/* @media (max-width: 960px) { 
+  .bg-cover {
+    height: 100vh;
+  }
+  .headline {
+    padding-top: 20rem !important;
+  }
+  .limit {
+    font-size: 20rem !important;
+  }
+  .cap2 {
+    width: 50vw;
+  }
+ } */
+ @media (max-width: 360px){
+  .bg-cover{
+    height: 100vh;
+  }
+  .headline {
+    padding-top: 5rem !important;
+  }
+ }
+
+ @media (min-width: 960px) {
+  .bg-cover{
+    height: 100vh;
+  }
+  .headline {
+    padding-top: 8rem  !important;
+
+  }
+  .cap2 {
+    width: 30vw;
+  }
+  .flexy {
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    
+  }
+  /* .full {
+    flex-direction: row;
+  } */
+.start {
+  font-weight: 800;
+}
+  .cap3 {
+    padding-left: 2rem;
+  }
+  .cap {
+    padding: 0 10rem ;
+  }
+  .texy {
+    font-size: 4rem !important;
+    
+  }
+ }
